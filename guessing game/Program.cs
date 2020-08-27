@@ -6,7 +6,7 @@ namespace guessing_game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World and all who inhabit it!");
         }
     }
 }
