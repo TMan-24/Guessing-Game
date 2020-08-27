@@ -12,6 +12,7 @@ namespace guessing_game
             Console.WriteLine("GUESSING GAME");
             Console.WriteLine("I am thinking of a number between 0 and 100");
             Console.WriteLine("Try your luck and guess my number");
+            
             int guess;
             int count = 0;
 
@@ -29,14 +30,11 @@ namespace guessing_game
                 if (guess < rnumber)
                 {
                     Console.WriteLine($"Your guess of {guess} too low, Try again");
-                    Console.WriteLine();
-
-
+                  
                 }
                 else if (guess > rnumber)
                 {
-                    Console.WriteLine($"Your guess of {guess} too high, Try again");
-                    Console.WriteLine();
+                    Console.WriteLine($"Your guess of {guess} too high, Try again");                   
                 }
                 else
                 {
